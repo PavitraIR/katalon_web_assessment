@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>d21eb45a-e1e8-48c1-8b06-f18ba683d23f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.icon-container > mat-icon.mat-icon.notranslate.mat-icon-no-color > svg > path</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>4d38bce4-a795-40c5-9b19-faa3746c75bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#0075BC</value>
+      <webElementGuid>e38b64b8-db0d-4f21-a497-a37cbf09e435</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>8785ba22-e2d0-4418-a122-bca9e75bafb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M18 36c9.941 0 18-8.059 18-18S27.941 0 18 0 0 8.059 0 18s8.059 18 18 18z</value>
+      <webElementGuid>60a4bc64-ec99-4154-bcb1-6a188f678e62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>clip-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>3c85fd5f-bfeb-4f70-b55f-d22e25d6b3fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>opacity</name>
+      <type>Main</type>
+      <value>.1</value>
+      <webElementGuid>adafa517-ced5-4eb0-a281-aebcdc7b47cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/div[@class=&quot;ng-trigger ng-trigger-animation ng-tns-c257-11 p-overlaypanel p-component ng-star-inserted&quot;]/div[@class=&quot;p-overlaypanel-content ng-tns-c257-11&quot;]/div[@class=&quot;profile-container ng-star-inserted&quot;]/div[@class=&quot;icon-container&quot;]/mat-icon[@class=&quot;mat-icon notranslate mat-icon-no-color&quot;]/svg[1]/path[1]</value>
+      <webElementGuid>f4760581-0218-4b7a-a6b7-59897d3f4f3d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

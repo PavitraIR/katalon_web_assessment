@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Jobs</name>
+   <tag></tag>
+   <elementGuidId>749b92ed-51b0-4ed5-92a4-a7c2ef1a9da6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Post in Community'])[1]/following::h1[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>mat-card.mat-card.mat-focus-indicator.content-card.jobs-card.ng-star-inserted > mat-card-title.mat-card-title > h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>d2d70ea8-f795-4e49-9b83-58ee60d003d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jobs</value>
+      <webElementGuid>3b5b7fc0-9e32-4cd7-a989-8c83348100bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-lms-container[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;learner-container&quot;]/div[1]/app-home[@class=&quot;ng-star-inserted&quot;]/app-learner-home[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;content-section&quot;]/div[1]/div[1]/mat-card[@class=&quot;mat-card mat-focus-indicator content-card jobs-card ng-star-inserted&quot;]/mat-card-title[@class=&quot;mat-card-title&quot;]/h1[1]</value>
+      <webElementGuid>9efd4632-313e-4f01-8642-fa18726eb0fe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Post in Community'])[1]/following::h1[1]</value>
+      <webElementGuid>81973574-569b-4c12-9e38-c75f9b58e666</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tibil Facilitator'])[1]/following::h1[1]</value>
+      <webElementGuid>af591e9e-bb4a-4d4a-913b-53a1090da854</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Job,'])[1]/preceding::h1[1]</value>
+      <webElementGuid>5582b662-a328-4a35-9402-a5591a8191e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Focaloid'])[1]/preceding::h1[1]</value>
+      <webElementGuid>d76a4ff5-3858-46b4-9843-6284aceb695e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Jobs']/parent::*</value>
+      <webElementGuid>a17d170d-1f6e-466e-b7a4-d3ce07b62a3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-card[3]/mat-card-title/h1</value>
+      <webElementGuid>302f2a43-1db2-4225-848a-0fc1ec88efe7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Jobs' or . = 'Jobs')]</value>
+      <webElementGuid>d838f087-46dc-4af1-b5a6-db07895fa1ba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>f8515560-6603-4bd8-88f2-ac5faa6b6f63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>path</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>d675f3b0-7b48-4f10-b166-94da4526909a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#C1C1C1</value>
+      <webElementGuid>8175523d-a484-47bb-9b08-bb13fe95d63c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>00254c6c-4754-4101-8041-4c09db775ae9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M21.836 10.795c.09-.088.09-.233-.001-.32L11 0 .165 10.475c-.09.087-.09.232 0 .32l1.23 1.209c.088.085.226.085.313.001L4.4 9.403v8.373c0 .124.1.224.224.224h4.114c.124 0 .224-.1.224-.224v-5.284c0-.123.1-.223.224-.223h3.628c.124 0 .224.1.224.223v5.284c0 .124.1.224.224.224h4.114c.124 0 .224-.1.224-.224V9.403l2.692 2.602c.087.084.225.084.312-.001l1.232-1.209z</value>
+      <webElementGuid>2c1d7d42-fe60-4cc0-abcd-ae656bcfa9d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>clip-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>702b136b-93ca-449f-b0fc-69eae12f45cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-lms-container[@class=&quot;ng-star-inserted&quot;]/app-header[1]/div[@class=&quot;toolbar-container&quot;]/mat-toolbar[@class=&quot;mat-toolbar mat-toolbar-single-row&quot;]/div[@class=&quot;center-links-container&quot;]/button[@class=&quot;mat-focus-indicator mat-flat-button mat-button-base active-link cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/mat-icon[@class=&quot;mat-icon notranslate mat-icon-no-color&quot;]/svg[1]/path[1]</value>
+      <webElementGuid>0b781ca1-9351-43f2-94dc-d12b8976f21f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

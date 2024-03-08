@@ -16,4 +16,4 @@ jobs:
       with:
           version: '8.6.6'
           projectPath: '${{ github.workspace }}'
-          args: '-noSplash -retry=0 -statusDelay=15 -testSuiteCollections="Test Suites\Functional_Test" -apiKey="${{secrets.WEB_FUNCTIONAL_TEST}} --config -webui.autoUpdateDrivers=true'
+          args: '-noSplash -retry=0 -statusDelay=15 -testSuiteCollections="Test Suites\Smoke_Test" -apiKey="${{secrets.WEB_SMOKE_TEST}} --config -webui.autoUpdateDrivers=true'

@@ -62,5 +62,6 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Tab_Titl
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Smoke_Tab_Title/Page_Quest LMS/span_Login with OTP'))
 
+
 WebUI.closeBrowser()
 

@@ -34,16 +34,23 @@ WebUI.click(findTestObject('Object Repository/Page_Smoke_Lanuage/Page_Quest LMS/
 
 WebUI.delay(2)
 
-//WebUI.click(findTestObject('Object Repository/Page_Smoke_Lanuage/Page_Quest LMS/div_Help_cdk-overlay-backdrop cdk-overlay-t_090a15'))
-options = findTestObject('Object Repository/Page_Smoke_Lanuage/Page_Quest LMS/div_English_mat-select-arrow ng-tns-c89-1')
 
-if (options) {
-    println('Options are present in the language dropdown' //	for (def option : options) {
-        //		println(option)
-        ) //	}
+options = findTestObject('Object Repository/Page_Smoke_Lanuage/Page_Quest LMS/div_English_mat-select-arrow ng-tns-c89-1')
+String screenshotPath = 'Screenshots/smoke_home.png'
+
+WebUI.takeScreenshot(screenshotPath)
+if (options == true) {
+    println('Options are present in the language dropdown' )
+        
+        
 } else {
     println('No options found in the language dropdown')
+	String screenshotPath = 'Screenshots/smoke_language.png'
+	
+	WebUI.takeScreenshot(screenshotPath)
+	assert false
 }
+
 
 WebUI.closeBrowser()
 

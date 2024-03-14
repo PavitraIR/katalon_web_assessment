@@ -25,7 +25,43 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Object Repository/Page_Emptyusername_Emptypassword/Page_OrangeHRM/button_Login'))
 
-WebUI.takeScreenshot('/home/pavitra/Katalon Studio/katalon_web_assessment/Screenshots/emptyusername_emptypassword.png')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Emptyusername_Emptypassword/Page_OrangeHRM/span_Required'), 
+    'Required')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Emptyusername_Emptypassword/Page_OrangeHRM/span_Required'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Emptyusername_Emptypassword/Page_OrangeHRM/span_Required'), 
+    'Required')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Emptyusername_Emptypassword/Page_OrangeHRM/span_Required'), 
+    0)
+
+def usernameError = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Emptyusername_Emptypassword/Page_OrangeHRM/span_Required'), 
+    0)
+def passwordError = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Emptyusername_Emptypassword/Page_OrangeHRM/span_Required'), 
+    0)
+
+if (usernameError == true) {
+	println('Username required message is displayed!')
+} else {
+	println('Username required message is not displayed!')
+	
+	assert false
+}
+
+if (passwordError == true) {
+	println('Password required message is displayed!')
+} else {
+	println('Password required message is not displayed!')
+	
+	String screenshotPath = 'Screenshots/emptyusername_emptypassword.png'
+	WebUI.takeScreenshot(screenshotPath)
+	assert false
+}
+
+
+
 
 WebUI.closeBrowser()
 

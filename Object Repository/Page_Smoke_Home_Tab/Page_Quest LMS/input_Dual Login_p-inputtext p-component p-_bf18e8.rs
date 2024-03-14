@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Dual Login_p-inputtext p-component p-_bf18e8</name>
    <tag></tag>
-   <elementGuidId>a5f098c6-1241-44d3-b0d8-fe3acc1d25ce</elementGuidId>
+   <elementGuidId>992e1c4a-7d78-41ee-850e-f1fd9bf2c0d5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ab782905-ef34-4427-8485-5b855993d686</webElementGuid>
+      <webElementGuid>8a4c0dcc-da7f-49e7-84e2-42d2fe548667</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>0d835c81-cde2-4ca6-bb90-9e84738c7efd</webElementGuid>
+      <webElementGuid>f7b0d3e1-0530-4d04-b82d-096c81076667</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>formcontrolname</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>3d5eccc7-ea6d-48a0-a607-41545daab747</webElementGuid>
+      <webElementGuid>f6070fa7-108f-4dd6-8b27-d0299fbfd2b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-inputtext p-component p-element ng-untouched ng-pristine ng-invalid</value>
-      <webElementGuid>5da31527-821b-4dc2-a119-c0fd8e629e47</webElementGuid>
+      <webElementGuid>a1e668cd-0c80-4b73-995a-cfe856b563f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c116-5 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;p-field&quot;]/span[@class=&quot;p-float-label&quot;]/input[@class=&quot;p-inputtext p-component p-element ng-untouched ng-pristine ng-invalid&quot;]</value>
-      <webElementGuid>cf8ec406-173a-4d09-8e71-ac6648c6b41f</webElementGuid>
+      <webElementGuid>40e1141e-b40d-4f71-8846-b3625562362b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='text']</value>
-      <webElementGuid>08a9e8c1-e851-42b3-8c78-840e308d4fe3</webElementGuid>
+      <webElementGuid>45e14517-e4b4-465c-bf25-2e0d59b80b55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/mat-card/mat-card-content/form/div/span/input</value>
-      <webElementGuid>55982f4a-c8d6-4731-8e37-8caf53207512</webElementGuid>
+      <webElementGuid>a063c430-4436-40b0-a29b-73adae46e24b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>115385e9-6054-49c8-9669-1fcea61b0c8f</webElementGuid>
+      <webElementGuid>9896cb65-2c9e-48f6-b980-4cc23bdcd9a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>fe9e15b7-762a-4b60-9862-7fed1786bb2d</webElementGuid>
+      <webElementGuid>d79e89d9-f9c5-4b8b-b2cd-3af9bb41e80b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

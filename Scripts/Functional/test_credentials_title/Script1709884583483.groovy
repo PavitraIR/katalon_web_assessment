@@ -43,5 +43,31 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Credentials_Ti
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Credentials_Title/Page_OrangeHRM/p_Forgot your password'))
 
+def usernametitle = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Credentials_Title/Page_OrangeHRM/label_Username'), 
+    0)
+def passwordtitle = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Credentials_Title/Page_OrangeHRM/label_Password'), 
+    0)
+
+if (usernametitle == true) {
+	println('Username title is displayed!')
+} else {
+	println('Username title is not displayed!')
+	
+	String screenshotPath = 'Screenshots/usernametitle.png'
+	WebUI.takeScreenshot(screenshotPath)
+	assert false
+}
+
+if (passwordtitle == true) {
+	println('Password title is displayed!')
+} else {
+	println('Password title is not displayed!')
+	String screenshotPath = 'Screenshots/passwordtitle.png'
+	WebUI.takeScreenshot(screenshotPath)
+	assert false
+}
+
 WebUI.closeBrowser()
+
+
 

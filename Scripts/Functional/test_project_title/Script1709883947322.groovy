@@ -31,5 +31,23 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Project_Title/Pag
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Project_Title/Page_OrangeHRM/h5_Login'))
 
+
+def title = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Project_Title/Page_OrangeHRM/h5_Login'),
+	10)
+
+if (title == true) {
+	println('Title is displaying')
+} else {
+	println('Title is not displaying')
+	
+	String screenshotPath = 'Screenshots/project_title.png'
+	WebUI.takeScreenshot(screenshotPath)
+	
+	assert false
+	
+}
+
+
+
 WebUI.closeBrowser()
 

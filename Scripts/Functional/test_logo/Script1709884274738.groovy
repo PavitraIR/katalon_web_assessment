@@ -27,5 +27,19 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Project_Title/
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Project_Title/Page_Logo/Page_OrangeHRM/img'))
 
+WebUI.delay(5)
+def logo = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Project_Title/Page_Logo/Page_OrangeHRM/img'),
+	10)
+
+if (logo == true) {
+	println('Logo is displaying on login page')
+} else {
+	println('Logo is not displaying on login page')
+	
+	String screenshotPath = 'Screenshots/logo.png'
+	WebUI.takeScreenshot(screenshotPath)
+	
+	assert false
+}
 WebUI.closeBrowser()
 

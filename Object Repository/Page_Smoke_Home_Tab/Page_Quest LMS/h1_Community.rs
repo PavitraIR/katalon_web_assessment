@@ -3,11 +3,11 @@
    <description></description>
    <name>h1_Community</name>
    <tag></tag>
-   <elementGuidId>c7540f3c-f02e-4bce-8b1d-22e147265682</elementGuidId>
+   <elementGuidId>6f7300fd-4211-42e7-a68c-715e648b69a2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/following::h1[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a subject from library to start learning.'])[1]/following::h1[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>2fbf83ed-812d-4759-a3fb-ac697a889802</webElementGuid>
+      <webElementGuid>a17af141-bdb7-4cdc-9434-eef4d9bb058e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Community</value>
-      <webElementGuid>4898017f-a61c-4a63-bea2-b6626cc2becc</webElementGuid>
+      <webElementGuid>5aadf0d3-51b4-4a07-bbde-e351f99389bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,23 +38,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-lms-container[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;learner-container&quot;]/div[1]/app-home[@class=&quot;ng-star-inserted&quot;]/app-learner-home[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;content-section&quot;]/div[1]/div[1]/mat-card[@class=&quot;mat-card mat-focus-indicator content-card community-card&quot;]/mat-card-title[@class=&quot;mat-card-title&quot;]/h1[1]</value>
-      <webElementGuid>b7e27458-c11b-4b8f-8543-3eb25b7eed63</webElementGuid>
+      <webElementGuid>b2ba2b6d-4b90-44ce-bb7d-0265e05ca030</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/following::h1[1]</value>
-      <webElementGuid>e4172e80-91e7-436d-a2bc-2636eef83bdf</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a subject from library to start learning.'])[1]/following::h1[1]</value>
+      <webElementGuid>0293f4c5-a835-4e1a-86de-1e0fa84be539</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Language'])[2]/following::h1[1]</value>
-      <webElementGuid>b5fd77fe-1ee6-4882-a756-cb3b688d2ede</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Library'])[3]/following::h1[1]</value>
+      <webElementGuid>cb9fd0de-ff71-4a13-928b-067cdd66f38b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='T'])[1]/preceding::h1[1]</value>
-      <webElementGuid>f2a80cee-d083-473f-904a-110bfebd28ce</webElementGuid>
+      <webElementGuid>07e7bc75-1dcd-427b-8a95-f16778921451</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tibil Facilitator'])[1]/preceding::h1[1]</value>
-      <webElementGuid>aca169fc-8cd0-40f8-bb13-7719ce5ed9bc</webElementGuid>
+      <webElementGuid>2b5f25b7-fd0d-44eb-a038-8007eb082ebd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-card[2]/mat-card-title/h1</value>
-      <webElementGuid>c3f2f4a3-a314-4a30-91b2-ae4550bc5a66</webElementGuid>
+      <webElementGuid>5d61a0c7-214e-4214-a1ec-83cfbd9533c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Community' or . = 'Community')]</value>
-      <webElementGuid>a3fa27c8-39b9-4b93-9749-53dfe9308652</webElementGuid>
+      <webElementGuid>ad9aed67-6f2c-489f-a8f9-ee0363a2a261</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

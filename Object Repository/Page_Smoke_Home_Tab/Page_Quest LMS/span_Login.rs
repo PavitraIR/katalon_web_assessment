@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Login</name>
    <tag></tag>
-   <elementGuidId>29cf66fd-d87e-4101-9363-b96babd493da</elementGuidId>
+   <elementGuidId>1e482489-851e-4ab6-91b9-24cf7787625e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>87a9ad9a-a27b-4c89-b5e1-c0b8531e2892</webElementGuid>
+      <webElementGuid>6062cb28-99d5-4c7d-a1c7-d6029614b105</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-button-wrapper</value>
-      <webElementGuid>617647cd-a4b5-4eba-8cb5-3bce3d4f6c5f</webElementGuid>
+      <webElementGuid>50118eee-978c-402f-9ae2-633ba9059e7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +38,15 @@
       <name>text</name>
       <type>Main</type>
       <value> Login </value>
-      <webElementGuid>9d41c26c-174b-48cc-8c42-1bd5a792668f</webElementGuid>
+      <webElementGuid>e1d2ca4d-fdd3-4bcf-bcee-277dc5693e0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c116-5 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/form[@class=&quot;ng-touched ng-dirty ng-valid&quot;]/button[@class=&quot;mat-focus-indicator mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]</value>
-      <webElementGuid>1d859e62-5e99-492f-875f-7115270bd941</webElementGuid>
+      <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c116-5 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/form[@class=&quot;ng-dirty ng-touched ng-valid&quot;]/button[@class=&quot;mat-focus-indicator mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]</value>
+      <webElementGuid>2960da8c-7eeb-4109-874b-2282a6a0e87e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/div/mat-card/mat-card-content/form/button/span</value>
-      <webElementGuid>4ae38233-d289-42e3-93ed-ad569a946398</webElementGuid>
+      <webElementGuid>4fbe050d-f0e4-4996-9da1-4a1b554288bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::span[1]</value>
-      <webElementGuid>56756b68-1433-4bff-b241-2a63aa583fea</webElementGuid>
+      <webElementGuid>438ddade-9dfd-44ce-823e-cfeedd7f9757</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email ID / Mobile Number'])[1]/following::span[2]</value>
-      <webElementGuid>0e22ae39-5927-4204-86ba-f9ad84e8f960</webElementGuid>
+      <webElementGuid>23ad7a40-cadb-416e-8998-110171322843</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Or'])[1]/preceding::span[3]</value>
-      <webElementGuid>12073cc5-072e-4605-aeca-47cf2d0a1fb6</webElementGuid>
+      <webElementGuid>7b8cacf0-ae54-49a4-a1c9-5b78bb503748</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Login with OTP'])[1]/preceding::span[3]</value>
-      <webElementGuid>e6137507-e93f-4a9f-9340-2a9b748a3a43</webElementGuid>
+      <webElementGuid>b8ac96fb-f5c0-40b9-8c9e-3877ca66e1e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>c1961a4a-d9c5-4e65-9cd6-454d7dd73c9f</webElementGuid>
+      <webElementGuid>8cb5b976-ee34-415e-b6f4-fc2f48f3bb65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/span</value>
-      <webElementGuid>dc372250-6419-49e8-9454-0bdf098db62f</webElementGuid>
+      <webElementGuid>d9eaa89b-d377-48ba-b3f5-34de4730a58f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' Login ' or . = ' Login ')]</value>
-      <webElementGuid>15d97435-1a33-400c-820e-0aa38e6352da</webElementGuid>
+      <webElementGuid>e12fc541-0eb5-43c7-9b86-747bbdbba8bc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

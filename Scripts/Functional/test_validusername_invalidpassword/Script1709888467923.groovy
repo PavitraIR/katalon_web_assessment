@@ -31,7 +31,24 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Validusername_Inva
 
 WebUI.click(findTestObject('Object Repository/Page_Validusername_Invalidpassword/Page_OrangeHRM/button_Login'))
 
-WebUI.takeScreenshot('/home/pavitra/Katalon Studio/katalon_web_assessment/Screenshots/invalidpassword.png')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Error/Page_OrangeHRM/p_Invalid credentials'), 'Invalid credentials')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Error/Page_OrangeHRM/p_Invalid credentials'), 0)
+
+def loginSuccessful = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Error/Page_OrangeHRM/p_Invalid credentials'), 
+    10)
+
+if (loginSuccessful == true) {
+    println('Login successful with dashboard page')
+} else {
+    println('Login failed with invalid credentials')
+	
+	String screenshotPath = 'Screenshots/validsername_invalidpassword.png'
+	WebUI.takeScreenshot(screenshotPath)
+	
+    assert false
+}
+
 
 WebUI.closeBrowser()
 

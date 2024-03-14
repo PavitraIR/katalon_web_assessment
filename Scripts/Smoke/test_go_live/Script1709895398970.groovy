@@ -33,6 +33,19 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Smoke_Golive_Tab/
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Golive_Tab/Page_Quest LMS/h1_Welcome, Tibil'), 0)
 
+def golive = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Golive_Tab/Page_Quest LMS/h1_Welcome, Tibil'),
+	10)
+
+if (golive == true) {
+	println('Clicked on the tab and redirected to the welcome tibil page.')
+} else {
+	println('Clicked on the tab but not redirected to the welcome tibil page.')
+	String screenshotPath = 'Screenshots/smoke_golive.png'
+	
+	WebUI.takeScreenshot(screenshotPath)
+	assert false
+}
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Smoke_Golive_Tab/Page_Quest LMS/h1_Upcoming Sessions'), 'Upcoming Sessions')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Golive_Tab/Page_Quest LMS/h1_Upcoming Sessions'), 
@@ -43,7 +56,6 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Smoke_Golive_Tab/
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Golive_Tab/Page_Quest LMS/h1_Previous Sessions'), 
     0)
 
-WebUI.takeScreenshot('/home/pavitra/Katalon Studio/katalon_web_assessment/Screenshots/Smoke_Golive.png')
 
 WebUI.closeBrowser()
 

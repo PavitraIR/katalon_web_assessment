@@ -37,5 +37,28 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Smoke_Project_Tit
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Project_Title/Page_Quest LMS/h1_Welcome to Quest App'), 
     0)
 
+//def isTextPresent = WebUI.verifyTextPresent("Welcome to Quest App", 10)
+
+//if ('Text' == 0) {
+//	println('Title is displaying ')
+//} else {
+//	println('Title is not displaying')
+//	assert false
+//}
+
+
+def title = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Project_Title/Page_Quest LMS/h1_Welcome to Quest App'),
+	10)
+
+if (title == true) {
+	println('Title is displaying')
+} else {
+	println('Title is not displaying')
+	String screenshotPath = 'Screenshots/project_title.png'
+	
+	WebUI.takeScreenshot(screenshotPath)
+	assert false
+}
+
 WebUI.closeBrowser()
 

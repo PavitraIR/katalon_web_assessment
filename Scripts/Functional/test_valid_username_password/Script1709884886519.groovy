@@ -23,14 +23,40 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Object Repository/Page_Valid_Username_Password/Page_OrangeHRM/input_Username_username'), GlobalVariable.Username)
+WebUI.setText(findTestObject('Object Repository/Page_Invalid_Username_Password/Page_OrangeHRM/input_Username_username'), 
+    GlobalVariable.Username)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Valid_Username_Password/Page_OrangeHRM/input_Password_password'), 
     GlobalVariable.Password)
 
 WebUI.click(findTestObject('Object Repository/Page_Valid_Username_Password/Page_OrangeHRM/button_Login'))
 
-WebUI.takeScreenshot('/home/pavitra/Katalon Studio/katalon_web_assessment/Screenshots/valid.png')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard/Page_OrangeHRM/h6_Dashboard'), 'Dashboard')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Dashboard/Page_OrangeHRM/h6_Dashboard'), 0)
+
+//if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Dashboard/Page_OrangeHRM/h6_Dashboard'), 10)) {
+//    println('Login passed successfully with dashboard page')
+//} else {
+//    println('Login failed with invalid credentials')
+//        
+//}
+
+def loginSuccessful = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Dashboard/Page_OrangeHRM/h6_Dashboard'), 
+    10)
+
+if (loginSuccessful == true) {
+    println('Login successful with dashboard page')
+} else {
+    println('Login failed with invalid credentials')
+	
+	String screenshotPath = 'Screenshots/validusername_validpassword.png'
+	WebUI.takeScreenshot(screenshotPath)
+	
+    assert false
+}
+
+
 
 WebUI.closeBrowser()
 

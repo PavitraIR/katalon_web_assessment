@@ -27,6 +27,18 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Link_Title/Pag
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Link_Title/Page_Quest LMS/div_Forgot Password'))
 
+def forgotPassword = WebUI.verifyElementText(findTestObject('Object Repository/Page_Link_Title/Page_Quest LMS/div_Forgot Password'), 'Forgot Password?') 
+if (forgotPassword == true) {
+	println('Element text Forgot Password is present')
+} else {
+	println('Element text Forgot Password is present')
+	
+	String screenshotPath = 'Screenshots/forgotpassword.png'
+	
+	WebUI.takeScreenshot(screenshotPath)
+	assert false
+}
+
 WebUI.click(findTestObject('Object Repository/Page_Link_Title/Page_Quest LMS/span_New User'))
 
 WebUI.click(findTestObject('Object Repository/Page_Link_Title/Page_Quest LMS/span_New User'))
@@ -37,17 +49,55 @@ WebUI.click(findTestObject('Object Repository/Page_Link_Title/Page_Quest LMS/spa
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Link_Title/Page_Quest LMS/span_New User'), 0)
 
+def newUser = WebUI.verifyElementText(findTestObject('Object Repository/Page_Link_Title/Page_Quest LMS/span_New User'), 'New User?')
+if (newUser == true) {
+	println('Element New User is present')
+} else {
+	println('Element New User is not present')
+	
+	String screenshotPath = 'Screenshots/newUser.png'
+	
+	WebUI.takeScreenshot(screenshotPath)
+	assert false
+}
+
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Link_Title/Page_Quest LMS/span_Register'), 'Register')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Link_Title/Page_Quest LMS/span_Register'), 0)
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Link_Title/Page_Quest LMS/span_Register'))
 
+def register = WebUI.verifyElementText(findTestObject('Object Repository/Page_Link_Title/Page_Quest LMS/span_Register'), 'Register')
+if (register == true) {
+	println('Element register is present')
+} else {
+	println('Element register is not present')
+	
+	String screenshotPath = 'Screenshots/register.png'
+	
+	WebUI.takeScreenshot(screenshotPath)
+	assert false
+
+}
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Link_Title/Page_Quest LMS/div_Help'), 'Help?')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Link_Title/Page_Quest LMS/div_Help'), 0)
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Link_Title/Page_Quest LMS/div_Help'))
+
+def help = WebUI.verifyElementText(findTestObject('Object Repository/Page_Link_Title/Page_Quest LMS/div_Help'), 'Help?')
+if (help == true) {
+	println('Element help is present')
+} else {
+	println('Element help not present')
+	String screenshotPath = 'Screenshots/help.png'
+	
+	WebUI.takeScreenshot(screenshotPath)
+	assert false
+
+}
 
 WebUI.closeBrowser()
 

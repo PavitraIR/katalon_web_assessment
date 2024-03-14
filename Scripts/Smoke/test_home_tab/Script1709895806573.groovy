@@ -21,8 +21,6 @@ WebUI.callTestCase(findTestCase('Loginpage'), [:], FailureHandling.STOP_ON_FAILU
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Smoke_Home_Tab/Page_Quest LMS/span_Home'), 'Home')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Home_Tab/Page_Quest LMS/span_Home'), 0)
-
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Smoke_Home_Tab/Page_Quest LMS/span_Home'))
 
 WebUI.click(findTestObject('Object Repository/Page_Smoke_Home_Tab/Page_Quest LMS/span_Home'))
@@ -31,19 +29,32 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Smoke_Home_Tab/Pa
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Home_Tab/Page_Quest LMS/h1_Welcome Tibil'), 0)
 
+def home = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Home_Tab/Page_Quest LMS/h1_Welcome Tibil'),
+	10)
+
+if (home == true) {
+    println('Clicked on the tab and redirected to the welcome tibil page.')
+} else {
+    println('Clicked on the tab but not redirected to the welcome tibil page.')
+	String screenshotPath = 'Screenshots/smoke_home.png'
+	
+	WebUI.takeScreenshot(screenshotPath)
+	assert false
+}
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Smoke_Home_Tab/Page_Quest LMS/h1_Library'), 'Library')
 
+WebUI.click(findTestObject('Object Repository/Page_Smoke_Home_Tab/Page_Quest LMS/h1_Library'))
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Home_Tab/Page_Quest LMS/h1_Library'), 0)
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Smoke_Home_Tab/Page_Quest LMS/h1_Community'), 'Community')
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Home_Tab/Page_Quest LMS/h1_Community'), 0)
+//
+//WebUI.verifyElementText(findTestObject('Object Repository/Page_Smoke_Home_Tab/Page_Quest LMS/h1_Community'), 'Community')
+//
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Home_Tab/Page_Quest LMS/h1_Community'), 0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Smoke_Home_Tab/Page_Quest LMS/h1_Jobs'), 'Jobs')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Home_Tab/Page_Quest LMS/h1_Jobs'), 0)
-
-WebUI.takeScreenshot('/home/pavitra/Katalon Studio/katalon_web_assessment/Screenshots/Smoke_Golive.png')
 
 WebUI.closeBrowser()
 

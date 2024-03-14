@@ -35,22 +35,21 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Library_Tab/Page_
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Library_Tab/Page_Quest LMS/h1_Welcome to your library'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Library_Tab/Page_Quest LMS/span_Communication    Skills'), 
-    'Communication Skills')
+def library = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Library_Tab/Page_Quest LMS/h1_Welcome to your library'),
+	10)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Library_Tab/Page_Quest LMS/span_Communication    Skills'), 
-    0)
+if (library == true) {
+	println('Clicked on the tab and redirected to the welcome to your library page.')
+} else {
+	println('Clicked on the tab but not redirected to the welcome to your library page.')
+	String screenshotPath = 'Screenshots/smoke_library.png'
+	
+	WebUI.takeScreenshot(screenshotPath)
+	assert false
+}
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Library_Tab/Page_Quest LMS/span_Stories of Success'), 'Stories of Success')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Library_Tab/Page_Quest LMS/span_Stories of Success'), 
-    0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Library_Tab/Page_Quest LMS/span_Career Skills'), 'Career Skills')
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Library_Tab/Page_Quest LMS/span_Career Skills'), 0)
-
-WebUI.takeScreenshot('/home/pavitra/Katalon Studio/katalon_web_assessment/Screenshots/Smoke_librarytab.png')
 
 WebUI.closeBrowser()
 

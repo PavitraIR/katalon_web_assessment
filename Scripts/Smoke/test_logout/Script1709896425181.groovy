@@ -35,7 +35,26 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Smoke_Logout
 
 WebUI.click(findTestObject('Object Repository/Page_Smoke_Logout/Page_Quest LMS/span_Logout'))
 
-WebUI.takeScreenshot('/home/pavitra/Katalon Studio/katalon_web_assessment/Screenshots/Smoke_Logout.png')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Smoke_Project_Title/Page_Quest LMS/h1_Welcome to Quest App'), 
+    'Welcome to Quest App')
+
+def logoutSuccessful = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Project_Title/Page_Quest LMS/h1_Welcome to Quest App'), 
+    10)
+
+if (logoutSuccessful == true) {
+	println('Logout successful and redirected to login page.')
+	
+} else {
+	println('Logout successful but not redirected to login page.')
+	
+	String screenshotPath = 'Screenshots/smoke_logout.png'
+	
+	WebUI.takeScreenshot(screenshotPath)
+	
+	assert false
+}
+
+
 
 WebUI.closeBrowser()
 

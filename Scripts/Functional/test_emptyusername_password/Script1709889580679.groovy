@@ -28,7 +28,28 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Emptyusername_Pass
 
 WebUI.click(findTestObject('Object Repository/Page_Emptyusername_Password/Page_OrangeHRM/button_Login'))
 
-WebUI.takeScreenshot('/home/pavitra/Katalon Studio/katalon_web_assessment/Screenshots/emptyusername.png')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Emptyusername_Emptypassword/Page_OrangeHRM/span_Required'), 
+    'Required')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Emptyusername_Emptypassword/Page_OrangeHRM/span_Required'), 
+    0)
+
+def error = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Emptyusername_Emptypassword/Page_OrangeHRM/span_Required'),
+	10)
+
+if (error == true) {
+	println('Username required message is displayed!')
+} else {
+	println('Username required message is not displayed!')
+	
+	String screenshotPath = 'Screenshots/emptyusername.png'
+	WebUI.takeScreenshot(screenshotPath)
+	
+	assert false
+}
+
+
+
 
 WebUI.closeBrowser()
 

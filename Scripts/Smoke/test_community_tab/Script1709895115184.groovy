@@ -37,6 +37,19 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Communit
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Smoke_Community_Tab/Page_Quest LMS/textarea_Welcome to your Community_mat-input-0'), 
     '')
+//if (WebUI.getUrl().contains('/community/welcome')) {
+def community = WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Community_Tab/Page_Quest LMS/h1_Welcome to your Community'),
+	10)
+
+if (community == true) {
+	println('Clicked on the tab and redirected to the welcome to your community page.')
+} else {
+	println('Clicked on the tab but not redirected to the welcome to your community page.')
+	String screenshotPath = 'Screenshots/smoke_community.png'
+	
+	WebUI.takeScreenshot(screenshotPath)
+	assert false
+}
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Community_Tab/Page_Quest LMS/div_Enter text here'), 
     0)
@@ -48,8 +61,6 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Communit
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Smoke_Community_Tab/Page_Quest LMS/h1_All posts'), 'All posts')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Smoke_Community_Tab/Page_Quest LMS/h1_All posts'), 0)
-
-WebUI.takeScreenshot('/home/pavitra/Katalon Studio/katalon_web_assessment/Screenshots/Smoke_Community.png')
 
 WebUI.closeBrowser()
 
